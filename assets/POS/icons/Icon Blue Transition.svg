@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #6d91f0;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #6d91f0;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="Icon_Blue_Transition" data-name="Icon Blue Transition" transform="translate(4)">
+    <g id="Arrow_simple_rightt" transform="translate(10)">
+      <path id="Shape" class="cls-1" d="M2.042.328A1.208,1.208,0,0,0,.356.358a1.231,1.231,0,0,0-.03,1.7L13.278,15.111.326,27.706a1.231,1.231,0,0,0,.03,1.7,1.208,1.208,0,0,0,1.686.03L16.484,15.111Z" transform="translate(0.451 0.716)"/>
+    </g>
+    <circle id="Oval_4" data-name="Oval 4" class="cls-2" cx="2" cy="2" r="2" transform="translate(6 14)"/>
+    <circle id="Oval_4_Copy" data-name="Oval 4 Copy" class="cls-2" cx="2" cy="2" r="2" transform="translate(-3 14)"/>
+  </g>
+</svg>

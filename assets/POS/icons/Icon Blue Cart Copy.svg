@@ -1,0 +1,22 @@
+<svg id="Icon_Blue_Cart_Copy" data-name="Icon Blue Cart Copy" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fd734c;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+        stroke-width: 2.916px;
+      }
+    </style>
+  </defs>
+  <rect id="Rectangle_7" data-name="Rectangle 7" class="cls-1" width="60" height="60" rx="15"/>
+  <g id="Cart" transform="translate(13 14)">
+    <path id="Cart-2" data-name="Cart" class="cls-2" d="M31.14,29.009H3.221L0,7.912H34.362l-3.222,21.1ZM9.912,20.439h0l.47,3.3Zm-8.59-6.594h0ZM24.45,7.252H9.251V5.378A5.282,5.282,0,0,1,14.419,0h4.863A5.283,5.283,0,0,1,24.45,5.378V7.251Z" transform="translate(0.319 0.37)"/>
+  </g>
+</svg>

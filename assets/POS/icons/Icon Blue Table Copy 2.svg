@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="75" height="75" viewBox="0 0 75 75">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #c5c5c5;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+        stroke-width: 2.84px;
+      }
+
+      .cls-3 {
+        filter: url(#Rectangle_8);
+      }
+    </style>
+    <filter id="Rectangle_8" x="0" y="0" width="75" height="75" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-color="#c5c5c5"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Icon_Blue_Table_Copy_2" data-name="Icon Blue Table Copy 2" transform="translate(7.5 7.5)">
+    <g class="cls-3" transform="matrix(1, 0, 0, 1, -7.5, -7.5)">
+      <rect id="Rectangle_8-2" data-name="Rectangle 8" class="cls-1" width="60" height="60" rx="15" transform="translate(7.5 7.5)"/>
+    </g>
+    <path id="Stroke_1099" data-name="Stroke 1099" class="cls-2" d="M33,20H0V17.019A16.765,16.765,0,0,1,16.5,0,16.765,16.765,0,0,1,33,17.019Z" transform="translate(14 18)"/>
+    <path id="Stroke_1100" data-name="Stroke 1100" class="cls-2" d="M.5,1H42.5" transform="translate(9 37)"/>
+    <path id="Stroke_1101" data-name="Stroke 1101" class="cls-2" d="M1,.472V5" transform="translate(30 13)"/>
+  </g>
+</svg>

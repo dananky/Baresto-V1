@@ -1,0 +1,22 @@
+<svg id="Icon_Table" data-name="Icon Table" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #febf11;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+        stroke-width: 2.84px;
+      }
+    </style>
+  </defs>
+  <rect id="Rectangle_8" data-name="Rectangle 8" class="cls-1" width="60" height="60" rx="27.5"/>
+  <path id="Stroke_1099" data-name="Stroke 1099" class="cls-2" d="M33,20H0V17.019A16.765,16.765,0,0,1,16.5,0,16.765,16.765,0,0,1,33,17.019Z" transform="translate(14 18)"/>
+  <path id="Stroke_1100" data-name="Stroke 1100" class="cls-2" d="M.5,1H42.5" transform="translate(9 37)"/>
+  <path id="Stroke_1101" data-name="Stroke 1101" class="cls-2" d="M1,.472V5" transform="translate(30 13)"/>
+</svg>

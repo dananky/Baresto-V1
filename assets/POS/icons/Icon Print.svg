@@ -1,0 +1,58 @@
+<svg id="Icon_Print" data-name="Icon Print" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-4, .cls-5 {
+        stroke: #4a4a4a;
+        stroke-miterlimit: 10;
+        stroke-width: 1.5px;
+      }
+
+      .cls-2, .cls-5 {
+        stroke-linecap: round;
+      }
+
+      .cls-3, .cls-5 {
+        fill: none;
+      }
+
+      .cls-6 {
+        fill: #4a4a4a;
+      }
+
+      .cls-7 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <rect id="Rectangle_12" data-name="Rectangle 12" class="cls-1" width="40" height="40" rx="5"/>
+  <g id="Rectangle_26" data-name="Rectangle 26">
+    <g id="Rectangle_26-2" data-name="Rectangle 26" class="cls-2" transform="translate(10 9)">
+      <rect class="cls-7" width="20" height="6" rx="0.397"/>
+      <rect class="cls-3" x="-0.75" y="-0.75" width="21.5" height="7.5" rx="1.147"/>
+    </g>
+    <rect id="Rectangle_26-3" data-name="Rectangle 26" class="cls-3" width="20" height="6" rx="0.397" transform="translate(10 9)"/>
+  </g>
+  <g id="Rectangle_24" data-name="Rectangle 24">
+    <g id="Rectangle_24-2" data-name="Rectangle 24" class="cls-4" transform="translate(7 16)">
+      <rect class="cls-7" width="26" height="14" rx="1.111"/>
+      <rect class="cls-3" x="-0.75" y="-0.75" width="27.5" height="15.5" rx="1.861"/>
+    </g>
+    <rect id="Rectangle_24-3" data-name="Rectangle 24" class="cls-3" width="26" height="14" rx="1.111" transform="translate(7 16)"/>
+  </g>
+  <g id="Rectangle_25" data-name="Rectangle 25">
+    <g id="Rectangle_25-2" data-name="Rectangle 25" class="cls-4" transform="translate(10 20)">
+      <rect class="cls-7" width="20" height="12" rx="0.397"/>
+      <rect class="cls-3" x="-0.75" y="-0.75" width="21.5" height="13.5" rx="1.147"/>
+    </g>
+    <rect id="Rectangle_25-3" data-name="Rectangle 25" class="cls-3" width="20" height="12" rx="0.397" transform="translate(10 20)"/>
+  </g>
+  <path id="Line" class="cls-5" d="M.149.5h13.7" transform="translate(13 22)"/>
+  <path id="Line_Copy_8" data-name="Line Copy 8" class="cls-5" d="M.149.5h13.7" transform="translate(13 25)"/>
+  <path id="Line_Copy_9" data-name="Line Copy 9" class="cls-5" d="M.149.5h13.7" transform="translate(13 28)"/>
+  <circle id="Oval_27" data-name="Oval 27" class="cls-6" cx="0.5" cy="0.5" r="0.5" transform="translate(9 17)"/>
+  <circle id="Oval_27_Copy" data-name="Oval 27 Copy" class="cls-6" cx="0.5" cy="0.5" r="0.5" transform="translate(11 17)"/>
+</svg>

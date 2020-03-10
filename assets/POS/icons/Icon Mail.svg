@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="38.396" height="27.212" viewBox="0 0 38.396 27.212">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: rgba(0,0,0,0);
+        stroke: #ed4b37;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        stroke-linejoin: round;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Icon_Mail" data-name="Icon Mail" transform="translate(0.396 1)">
+    <g id="UI_Mail" data-name="UI / Mail">
+      <g id="Group" transform="translate(0.604)">
+        <g id="Group-2" data-name="Group" transform="translate(36.348 0.579) rotate(90)">
+          <g id="Group-3" data-name="Group" transform="translate(0 0)">
+            <path id="Shape" class="cls-1" d="M1.576,0H23.058a1.616,1.616,0,0,1,1.576,1.652V34.7a1.616,1.616,0,0,1-1.576,1.652H1.576A1.616,1.616,0,0,1,0,34.7V1.652A1.616,1.616,0,0,1,1.576,0Z"/>
+          </g>
+        </g>
+        <g id="Group-4" data-name="Group" transform="translate(0.998)">
+          <g id="Group-5" data-name="Group" transform="translate(35.308 25.212) rotate(180)">
+            <path id="Shape-2" data-name="Shape" class="cls-2" d="M0,0,17.48,13.394,35.308,0Z" transform="translate(0 0)"/>
+          </g>
+          <g id="Group-6" data-name="Group" transform="translate(0)">
+            <g id="path-362-link">
+              <path id="path-362" class="cls-3" d="M0,0,17.48,16.545,35.308,0Z"/>
+            </g>
+            <g id="path-362-link-2" data-name="path-362-link">
+              <path id="path-362-2" data-name="path-362" class="cls-2" d="M0,0,17.48,16.545,35.308,0Z"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

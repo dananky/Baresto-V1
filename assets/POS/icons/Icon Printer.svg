@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="45.527" height="39.146" viewBox="0 0 45.527 39.146">
+  <defs>
+    <style>
+      .cls-1, .cls-3, .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-3, .cls-6, .cls-7 {
+        stroke: #febf11;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-7 {
+        stroke-linecap: round;
+      }
+
+      .cls-1, .cls-6 {
+        stroke-width: 1.47px;
+      }
+
+      .cls-2, .cls-7 {
+        fill: none;
+      }
+
+      .cls-3, .cls-7 {
+        stroke-width: 1.764px;
+      }
+
+      .cls-4 {
+        fill: #4a4a4a;
+      }
+
+      .cls-5 {
+        fill: #febf11;
+      }
+
+      .cls-8 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Icon_Printer" data-name="Icon Printer" transform="translate(1.764 1.47)">
+    <g id="Rectangle_26" data-name="Rectangle 26">
+      <g id="Rectangle_26-2" data-name="Rectangle 26" class="cls-1" transform="translate(5.625)">
+        <rect class="cls-8" width="30.75" height="9.681" rx="0.63"/>
+        <rect class="cls-2" x="-0.735" y="-0.735" width="32.22" height="11.151" rx="1.365"/>
+      </g>
+      <rect id="Rectangle_26-3" data-name="Rectangle 26" class="cls-2" width="30.75" height="9.681" rx="0.63" transform="translate(5.625)"/>
+    </g>
+    <g id="Rectangle_24" data-name="Rectangle 24">
+      <g id="Rectangle_24-2" data-name="Rectangle 24" class="cls-3" transform="translate(0 9.1)">
+        <rect class="cls-8" width="42" height="21.298" rx="1.764"/>
+        <rect class="cls-2" x="-0.882" y="-0.882" width="43.764" height="23.061" rx="2.645"/>
+      </g>
+      <rect id="Rectangle_24-3" data-name="Rectangle 24" class="cls-2" width="42" height="21.298" rx="1.764" transform="translate(0 9.1)"/>
+    </g>
+    <ellipse id="Oval_27" data-name="Oval 27" class="cls-4" cx="0.938" cy="0.968" rx="0.938" ry="0.968" transform="translate(5.25 12.198)"/>
+    <ellipse id="Oval_27_Copy" data-name="Oval 27 Copy" class="cls-5" cx="0.938" cy="0.968" rx="0.938" ry="0.968" transform="translate(8.625 12.198)"/>
+    <g id="Rectangle_25" data-name="Rectangle 25">
+      <g id="Rectangle_25-2" data-name="Rectangle 25" class="cls-6" transform="translate(5.625 17.232)">
+        <rect class="cls-8" width="30.75" height="18.974" rx="0.63"/>
+        <rect class="cls-2" x="-0.735" y="-0.735" width="32.22" height="20.444" rx="1.365"/>
+      </g>
+      <rect id="Rectangle_25-3" data-name="Rectangle 25" class="cls-2" width="30.75" height="18.974" rx="0.63" transform="translate(5.625 17.232)"/>
+    </g>
+    <path id="Line" class="cls-7" d="M.223.65H20.777" transform="translate(10.875 22.1)"/>
+    <path id="Line_Copy_8" data-name="Line Copy 8" class="cls-7" d="M.223.65H20.777" transform="translate(10.875 26)"/>
+    <path id="Line_Copy_9" data-name="Line Copy 9" class="cls-7" d="M.223.65H20.777" transform="translate(10.875 29.9)"/>
+  </g>
+</svg>

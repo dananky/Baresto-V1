@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="75" height="75" viewBox="0 0 75 75">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #febf11;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+        stroke-width: 3.36px;
+      }
+
+      .cls-3 {
+        filter: url(#Rectangle_8);
+      }
+    </style>
+    <filter id="Rectangle_8" x="0" y="0" width="75" height="75" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-color="#febf11"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Icon_Register" data-name="Icon Register" transform="translate(7.5 7.5)">
+    <g class="cls-3" transform="matrix(1, 0, 0, 1, -7.5, -7.5)">
+      <rect id="Rectangle_8-2" data-name="Rectangle 8" class="cls-1" width="60" height="60" rx="15" transform="translate(7.5 7.5)"/>
+    </g>
+    <path id="Money_2" data-name="Money 2" class="cls-2" d="M36,30H0V6H36V30ZM18,13.246A4.756,4.756,0,1,0,22.9,18,4.836,4.836,0,0,0,18,13.246ZM33.872,5.163H2.127V0H33.872V5.162Z" transform="translate(12 15)"/>
+  </g>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="75" height="75" viewBox="0 0 75 75">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #febf11;
+      }
+
+      .cls-3 {
+        filter: url(#Rectangle_7);
+      }
+    </style>
+    <filter id="Rectangle_7" x="0" y="0" width="75" height="75" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Icon_Blue_Library" data-name="Icon Blue Library" transform="translate(7.5 7.5)">
+    <g class="cls-3" transform="matrix(1, 0, 0, 1, -7.5, -7.5)">
+      <rect id="Rectangle_7-2" data-name="Rectangle 7" class="cls-1" width="60" height="60" rx="15" transform="translate(7.5 7.5)"/>
+    </g>
+    <g id="Book" transform="translate(17 12)">
+      <path id="Shape" class="cls-2" d="M18.973,32.267H3.649A3.662,3.662,0,0,1,0,28.6V6.6A3.665,3.665,0,0,1,.277,5.214L0,5.134.839,4.29a3.7,3.7,0,0,1,.518-.521l2.583-2.6L4.1,1.012,5.108,0l.247.249A3.821,3.821,0,0,1,6.684,0H26.27V25.667a3.689,3.689,0,0,1-2.364,3.395l-2.634,3.175-.533-.447A3.6,3.6,0,0,1,18.973,32.267ZM3.649,5.134A1.465,1.465,0,0,0,2.189,6.6v22a1.465,1.465,0,0,0,1.46,1.466H18.973a1.465,1.465,0,0,0,1.46-1.466V5.134h-2.92V16.222l-3.78-3.037-3.517,3.263V5.134ZM6.684,2.185a1.623,1.623,0,0,0-1.35.734H22.622v24.2h.051l.569-.689.343.286a1.415,1.415,0,0,0,.5-1.049V2.2Zm6.947,8.1h0l1.692,1.363V5.134H12.406v6.285l1.225-1.136Z" transform="translate(0.525 0.293)"/>
+    </g>
+  </g>
+</svg>

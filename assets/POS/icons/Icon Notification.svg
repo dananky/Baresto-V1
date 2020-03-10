@@ -1,0 +1,15 @@
+<svg id="Icon_Notification" data-name="Icon Notification" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #febf11;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <rect id="Rectangle_7" data-name="Rectangle 7" class="cls-1" width="30" height="30" rx="6"/>
+  <path id="Shape" class="cls-2" d="M7.125,16.625A1.577,1.577,0,0,1,5.549,15.05H8.7A1.577,1.577,0,0,1,7.125,16.625ZM14.25,14.25H0v-.839l1.679-1.679V7.125a5.423,5.423,0,0,1,4.188-5.3v-.57a1.259,1.259,0,1,1,2.517,0v.57a5.424,5.424,0,0,1,4.189,5.3v4.607l1.678,1.679v.838Z" transform="translate(8.375 7.583)"/>
+</svg>

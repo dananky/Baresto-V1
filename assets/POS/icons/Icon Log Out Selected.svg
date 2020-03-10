@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="75" height="75" viewBox="0 0 75 75">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        fill: #c5c5c5;
+      }
+
+      .cls-4 {
+        filter: url(#Rectangle_8);
+      }
+    </style>
+    <filter id="Rectangle_8" x="0" y="0" width="75" height="75" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-color="#878787"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Icon_Log_Out_Selected" data-name="Icon Log Out Selected" transform="translate(7.5 7.5)">
+    <g class="cls-4" transform="matrix(1, 0, 0, 1, -7.5, -7.5)">
+      <rect id="Rectangle_8-2" data-name="Rectangle 8" class="cls-1" width="60" height="60" rx="15" transform="translate(7.5 7.5)"/>
+    </g>
+    <path id="Shape" class="cls-2" d="M0,0H32V39H0Z" transform="translate(17 10)"/>
+    <path id="Shape-2" data-name="Shape" class="cls-3" d="M36.046,29.218H11.7A3,3,0,0,1,9,26V19.484h2.7v6.532H36.046V3.217H11.7V9.733H9V3.25A3.019,3.019,0,0,1,11.7,0H36.046a3.019,3.019,0,0,1,2.7,3.25V26A3,3,0,0,1,36.046,29.218ZM6.5,21.109l0,0L0,14.609l6.5-6.5v4.874H22.75v3.25H6.5v4.875Z" transform="translate(7.625 14.891)"/>
+  </g>
+</svg>

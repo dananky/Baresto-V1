@@ -1,0 +1,20 @@
+<svg id="Icon_Cancel" data-name="Icon Cancel" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fd734c;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <rect id="Rectangle_12_Copy" data-name="Rectangle 12 Copy" class="cls-1" width="40" height="40" rx="5"/>
+  <path id="Line" class="cls-2" d="M0,0,20.025,20.025" transform="translate(10.5 9.5)"/>
+  <path id="Line_Copy" data-name="Line Copy" class="cls-2" d="M20.025,0,0,20.025" transform="translate(10.475 9.5)"/>
+</svg>

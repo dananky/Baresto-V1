@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40.292" height="24" viewBox="0 0 40.292 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #b5c0ce;
+      }
+
+      .cls-2 {
+        fill: rgba(0,0,0,0);
+        stroke: #b5c0ce;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <g id="Icon_Switch" data-name="Icon Switch" transform="translate(2.292 1.5)">
+    <g id="UI_Button_Switch" data-name="UI / Button / Switch">
+      <path id="Shape" class="cls-1" d="M13.994,2.5H7.7C5.151,2.5,3.082,4.18,3.082,6.251c0,2.024,1.977,3.674,4.449,3.748L7.7,10h6.289A9.786,9.786,0,0,0,15.8,12.5H7.7C3.449,12.5,0,9.7,0,6.251S3.449,0,7.7,0h8.1A9.785,9.785,0,0,0,13.994,2.5Z" transform="translate(34.802 16.753) rotate(180)"/>
+      <ellipse id="Oval" class="cls-2" cx="10.636" cy="10.5" rx="10.636" ry="10.5" transform="translate(-0.792)"/>
+    </g>
+  </g>
+</svg>
