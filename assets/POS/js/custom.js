@@ -1617,15 +1617,6 @@ $(document).ready(function() {
         //get vat amount for specific item/menu
         var item_vat_amount_for_unit_item = ((parseFloat(item_price) * parseFloat(item_vat_percentage)) / parseFloat(100)).toFixed(2);
 
-        if (item_vat_percentage <= 100) {
-
-            var item_total_price = ((parseFloat(item_price) - parseFloat(item_vat_amount_for_unit_item)).toFixed(2));
-        } else {
-
-            var item_total_price = ((parseFloat(item_price) - parseFloat(item_vat_percentage)).toFixed(2));
-        }
-
-
         // if(item_vat_percentage == item_vat_percentage) {
 
         //         var item_total_price = ((parseFloat(item_price) - parseFloat(item_vat_amount_for_unit_item)).toFixed(2));
@@ -1647,6 +1638,35 @@ $(document).ready(function() {
         //get vat amount for specific item/menu
         var item_vat_amount_for_all_quantity = (parseFloat(item_vat_amount_for_unit_item) * parseFloat(item_quantity)).toFixed(2);
 
+        var selected_modifiers = '';
+        var selected_modifiers_id = '';
+        var selected_modifiers_price = '';
+        var j = 1;
+        $('.modal_modifiers[data-selected=selected]').each(function(i, obj) {
+            if (j == $('.modal_modifiers[data-selected=selected]').length) {
+                selected_modifiers += $(this).find('p').html();
+                selected_modifiers_id += $(this).attr('id').substr(9);
+                selected_modifiers_price += $(this).find('.modifier_price').html();
+            } else {
+                selected_modifiers += $(this).find('p').html() + ',';
+                selected_modifiers_id += $(this).attr('id').substr(9) + ',';
+                selected_modifiers_price += $(this).find('.modifier_price').html() + ',';
+            }
+            j++;
+        });
+
+
+        //get modifiers price
+        var modifiers_price = parseFloat($('#modal_modifier_price_variable').html()).toFixed(2);
+        //get note
+        var note = $('#modal_item_note').val();
+
+        if (item_vat_percentage <= 100) {
+            var item_total_price = ((parseFloat(item_price) - parseFloat(item_vat_amount_for_unit_item)).toFixed(2));
+        } else {
+
+            var item_total_price = ((parseFloat(item_price) - parseFloat(item_vat_percentage)).toFixed(2));
+        }
 
         //construct div
         var draw_table_for_order = '';
@@ -1679,6 +1699,19 @@ $(document).ready(function() {
         //draw_table_for_order += '<div class="single_order_column forth_column fix"> <input type="text" name="" placeholder="Amt or %" class="special_textbox" id="percentage_table_' + item_id + '" value="' + discount_input_value + '" disabled><i style="cursor:pointer;" class="fa fa-tags edit_diskon" id="edit_diskon_' + item_id + '"></i></div>';
         draw_table_for_order += '<div class="single_order_column fifth_column fix"> <span id="item_total_price_table_' + item_id + '">' + item_total_price + '</span></div>';
         draw_table_for_order += '</div>';
+        if (selected_modifiers != "") {
+            draw_table_for_order += '<div class="second_portion fix">';
+            draw_table_for_order += '<span id="item_modifiers_id_table_' + item_id + '" style="display:none;">' + selected_modifiers_id + '</span>';
+            draw_table_for_order += '<span id="item_modifiers_price_table_' + item_id + '" style="display:none;">' + selected_modifiers_price + '</span>';
+            draw_table_for_order += '<div class="single_order_column first_column fix"><span id="item_modifiers_table_' + item_id + '">' + selected_modifiers + '</span></div>';
+            draw_table_for_order += '<div class="single_order_column fifth_column fix"> <span id="item_modifiers_price_table_' + item_id + '">' + modifiers_price + '</span></div>';
+            draw_table_for_order += '</div>';
+        }
+        if (note != "") {
+            draw_table_for_order += '<div class="third_portion fix">';
+            draw_table_for_order += '<div class="single_order_column first_column fix">Note: <span id="item_note_table_' + item_id + '">' + note + '</span></div>';
+            draw_table_for_order += '</div>';
+        }
 
         draw_table_for_order += (row_number > 0) ? '' : '</div>';
 
@@ -1732,7 +1765,7 @@ $(document).ready(function() {
             $("#tax_charge").val(10);
             do_addition_of_item_and_modifiers_price();
         }
-
+        $("#item_modal_delivery").hide();
     });
 
     $(document).on('click', '#take_away_button', function() {
@@ -2217,7 +2250,7 @@ $(document).ready(function() {
         draw_table_for_order += '<div class="single_order_column first_column fix"><i style="cursor:pointer;" class="fas fa-pencil-alt edit_item" id="edit_item_' + item_id + '"></i> <span id="item_name_table_' + item_id + '">' + item_name + '</span></div>';
         draw_table_for_order += '<div class="single_order_column second_column fix"> <span id="item_price_table_' + item_id + '">' + item_price + '</span></div>';
         draw_table_for_order += '<div class="single_order_column third_column fix"><i style="cursor:pointer;" class="fas fa-minus-circle decrease_item_table" id="decrease_item_table_' + item_id + '"></i> <span id="item_quantity_table_' + item_id + '">' + item_quantity + '</span> <i style="cursor:pointer;" class="fas fa-plus-circle increase_item_table" id="increase_item_table_' + item_id + '"></i></div>';
-        draw_table_for_order += '<div class="single_order_column forth_column fix"><input type="" name="" placeholder="Amt or %" class="special_textbox" id="percentage_table_' + item_id + '" value="' + discount_input_value + '" disabled></div>';
+        draw_table_for_order += '<div class="single_order_column forth_column fix"><input type="" name="" placeholder="Amt or %" class="special_textbox" id="percentage_table_' + item_id + '" value="' + discount_input_value + '" disabled><i style="cursor:pointer;" class="fa fa-tags edit_diskon" id="edit_diskon_' + item_id + '"></i></div>';
         draw_table_for_order += '<div class="single_order_column fifth_column fix"> <span id="item_total_price_table_' + item_id + '">' + item_total_price + '</span></div>';
         draw_table_for_order += '</div>';
         if (selected_modifiers != "") {

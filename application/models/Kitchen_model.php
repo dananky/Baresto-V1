@@ -79,6 +79,16 @@ class Kitchen_model extends CI_Model {
         $this->db->order_by('tbl_sales_details.id', 'ASC');
         return $this->db->get()->result();
     }
+    public function getAllKitchenItemsFromSalesDetailBySalesId2($sales_id,$id){
+        $this->db->select("tbl_sales_details.*,tbl_sales_details.id as sales_details_id,tbl_food_menus.code as code,tbl_food_menus.name as menu_name");
+        $this->db->from('tbl_sales_details');
+        $this->db->join('tbl_food_menus', 'tbl_food_menus.id = tbl_sales_details.food_menu_id', 'left');
+        $this->db->where("sales_id", $sales_id);
+        $this->db->where("tbl_sales_details.id", $id);
+        $this->db->where("item_type", "Kitchen Item");
+        $this->db->order_by('tbl_sales_details.id', 'ASC');
+        return $this->db->get()->result();
+    }
     public function getModifiersBySaleAndSaleDetailsId($sales_id,$sale_details_id){
         $this->db->select("tbl_sales_details_modifiers.*,tbl_modifiers.name");
         $this->db->from('tbl_sales_details_modifiers');

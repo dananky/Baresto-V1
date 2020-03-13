@@ -99,7 +99,7 @@ class Sale extends CI_Controller {
      {
 
          try {
-             $connector = new NetworkPrintConnector("192.168.0.230", 9100);
+             $connector = new NetworkPrintConnector("192.168.0.22", 9100);
              
              /* Start the printer */
              // $logo = EscposImage::load("resources/escpos-php.png", false);

@@ -50,9 +50,28 @@
 
                     <?php
                         $id = explode(",", $_GET['id']);
-			//print_r($data);
+
                         foreach ($id as $previous_id) {
                             $print = $this->Kitchen_model->print_kitchen($previous_id);
+                            $sales_id = $print->sales_id;
+                            echo($previous_id);
+                            $modifiers = $this->Kitchen_model->getModifiersBySaleAndSaleDetailsId($sales_id,$previous_id);
+                            $items_by_sales_id = $this->Kitchen_model->getAllKitchenItemsFromSalesDetailBySalesId2($sales_id,$previous_id);
+                            $menu_note = "";
+                            foreach($items_by_sales_id as $sales_details){
+                                $menu_note = $sales_details->menu_note;
+                            }
+                            $modifiers_length = count($modifiers);
+                            $w = 1;
+                            $modifiers_name = '';
+                            foreach($modifiers as $single_modifier){
+                                if($w==$modifiers_length){
+                                    $modifiers_name .= $single_modifier->name;
+                                }else{
+                                    $modifiers_name .= $single_modifier->name.', ';
+                                }
+                                $w++; 
+                            }
                             $table_order = $this->Sale_model->get_all_tables_of_a_sale_items($print->sales_id);
 			    
                     ?>
@@ -84,6 +103,16 @@
                             <td><?php echo $print->menu_name; ?></td>
                             <td><?php echo "X $print->qty"; ?></td>
                         </tr>
+                        <?php if($modifiers_name != "") {?>
+                            <tr style="font-size:11px;">
+                                <td colspan="2"><?php echo $modifiers_name ?></td>
+                            </tr>
+                        <?php } ?>
+                        <?php if($menu_note != "") {?>
+                            <tr style="font-size:11px;">
+                                <td colspan="2"><?php echo $menu_note ?></td>
+                            </tr>
+                        <?php } ?>
                   </table>
 
 
@@ -190,6 +219,8 @@
             prn += PrnAlignLeft;
             prn += '--------------------------------'+LF;
             prn += PrnAlignLeft+ '<?php echo $print->menu_name; ?> '+TAB+'<?php echo "X $print->qty"; ?>'+LF;
+            prn += PrnAlignLeft+ '<?php echo $print->modifiers_name; ?> '+LF;
+            prn += PrnAlignLeft+ '<?php echo $print->menu_note; ?> '+LF;
 
             prn += PrnAlignLeft;
             prn += '--------------------------------'+LF;

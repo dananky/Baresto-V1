@@ -55,7 +55,7 @@ if (isset($food_menu_ingredients)) {
                 console.log(total_price);
             	$('#total_price_'+ last_char +'').text(total_price+'.00');
             });
-        },3000);
+        },2000);
         
         $('#ingredient_id').change(function(){
             var ingredient_details=$('#ingredient_id').val();
